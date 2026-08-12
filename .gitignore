@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# secrets and local env
+.env
+.env.local
+app/.env
+app/.env.local
+*.local
+
+# firebase
+.firebase/
+firebase-debug.log
+database-debug.log
+firestore-debug.log
+ui-debug.log
+functions/*.log
+
+# expo
+app/.expo/
+app/dist/
+app/web-build/
+
+# build output
+functions/lib/
+
+# os
+.DS_Store
+Thumbs.db
