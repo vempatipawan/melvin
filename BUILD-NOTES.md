@@ -173,5 +173,3 @@ The build is checked:
 - `node --check` on every function file, plus a module load with the real Firebase Admin and Functions dependencies, confirming all exports resolve.
 - `tsc --noEmit` on the app, clean.
 - `expo export` for both the native (iOS) and web targets, both bundling without error.
-
-Running a full live match is the next step, and a normal one. It needs the Firebase Emulator Suite (which requires Java) plus a phone, a simulator, or a browser. [RUN.md](RUN.md) has the exact steps, the prerequisites, and the reset command. Run it there once before presenting it, so you have watched it work end to end.
